@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+</head>
+
+<style>
+    #sHead {
+        width:  20px;
+        height: 20px;
+        position: absolute;
+        background-color: red;
+        border-radius: 10px;
+    }
+
+    .sBody {
+        width:  20px;
+        height: 20px;
+        position: absolute;
+        background-color: olivedrab;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+
+<div id="sHead"></div>
+
+
+<script>
+    sHead.style.top = 250+"px";
+    sHead.style.left = 500+"px";
+
+</script>
+
+<!--<script scr="snake.js" >
+
+    function draw_f() {
+        var f_canvas = document.getElementById("field");
+        f_canvas.height = 800;
+        f_canvas.width = 1000;
+        var f_context = f_canvas.getContext("2d");
+        f_context.strokeStyle = "blue";
+        f_context.strokeRect(400, 0, 500, 500);
+    }
+
+</script>-->
+<script src="snake.js"></script>
+</body>
+
+</html>
